@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "native-app",
+    "slug": "native-app",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/places.png",
+    "splash": {
+      "image": "./assets/places-adaptive.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#171717"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.delman.native-app-places",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.delman.native_app_places",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/places-adaptive.png",
+        "backgroundColor": "#171717"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAG"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyC6k3XDnALssummz0HbONxJBYBo-bu3KNc"
+        }
+      }
+    }
+  }
+}
