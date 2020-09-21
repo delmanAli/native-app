@@ -5,7 +5,7 @@ const vars = {
 export default vars;
 
 
-//  'AIzaSyD-ZPcMh4YKvZJSo-H2C7ESf2PEDJWlcEc'
+
 
 
 
